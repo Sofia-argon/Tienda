@@ -1,15 +1,15 @@
 article p {
-                color: brown;
+                color: black;
             }
             h2 {
                 text-align: center;
-                background-color: green;
+                background-color: red;
                 color: white;
             }
             
             nav a:link, nav a:visited{
-                background-color: black;
-                color: white;
+                background-color: white;
+                color: black;
             }
             
             nav a:hover {
@@ -23,13 +23,13 @@ article p {
             }
             
             tbody tr:nth-child(even) {
-                background-color: green;
+                background-color: orange;
                 color: black;
             }
             
             #logo {
                 color: white;
-                background-color: blue;
+                background-color: red;
                 text-align: center;
             }
             
@@ -44,7 +44,7 @@ article p {
                 left: 0;
                 width: 100%;
                 height: 20%;
-                background-color: blue;
+                background-color: red;
             }
             
             .nav {
@@ -53,11 +53,12 @@ article p {
             
             .aside {
                 position: fixed;
+                color: white;
                 top: 20%;
                 left: 0;
                 width: 20%;
                 height: 75%;
-                background-color: aqua;
+                background-color: grey;
             }
             
             .section {
@@ -66,16 +67,17 @@ article p {
                 left: 20%;
                 width: 80%;
                 height: 75%;
-                background-color: bisque;
+                background-color: white;
                 overflow-y: scroll;
             }
             
             .footer {
                 position: fixed;
+                color: white;
                 bottom: 0;
                 left: 0;
                 width: 100%;
                 height: 5%;
-                background-color: yellowgreen;
+                background-color: red;
                 text-align: center;
             }
