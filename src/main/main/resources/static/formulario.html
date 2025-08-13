@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--Nuestra primera pagina del curso-->
+<html>
+    <head>
+        <title>TechShop</title>
+        <meta charset="UTF-8"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav">
+            <a href="index.html" class="logo nav-link">TechShop</a> 
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a class=nav-menu-link nav-link" href="ejemplo8.html">&LeftTriangleBar;</a></li>
+                <li class="nav-menu-item"><a class=nav-menu-link nav-link" href="ejemplo2.html">&RightTriangleBar;</a></li>
+                <li class="nav-menu-item"><a class=nav-menu-link nav-link" href="audios.html">Audios</a></li>
+                <li class="nav-menu-item"><a class=nav-menu-link nav-link" href="videos.html">Videos</a></li>
+                <li class="nav-menu-item"><a class=nav-menu-link nav-link" href="iframes.html">iFrames</a></li>
+                <li class="nav-menu-item"><a class=nav-menu-link nav-link" href="formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <aside class="aside">
+            <h2 class="noticia">Uso de iFrame</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit urna auctor purus fringilla penatibus etiam, dapibus volutpat montes taciti dui vulputate varius malesuada habitant massa pulvinar blandit. Phasellus blandit ullamcorper pulvinar ad enim erat laoreet pharetra quis eros dui, risus id nibh dignissim mus dis montes vestibulum malesuada semper, pretium interdum netus ut litora hendrerit ac sagittis velit potenti. Ultrices felis nibh eleifend class ut est dignissim nisi sollicitudin, dui nunc facilisi risus potenti et laoreet lacinia, cubilia massa enim pellentesque fusce vulputate egestas erat.</p>
+        </aside>
+
+        <section class="section">
+            <article>
+                <header>
+                    <h2>Solicitud de Informacion</h2>
+                </header>
+                <form action="#">
+                    <table border="0" cellspacing="5" cellpadding="5">
+                        <tbody>
+                            <tr>
+                                <td>Usuario </td>
+                                <td><input type="email" 
+                                           name="usuario" placeholder="correo@correo.com"
+                                           size="25"/></td>
+                            </tr>
+                            <tr>
+                                <td>Clave </td>
+                                <td><input type="password" name="clave"
+                                           size="10"/></td>
+                            </tr>
+                            <tr>
+                                <td>Nombre completo </td>
+                                <td><input type="text" name="nombre" placeholder="Nombre completo"
+                                           size="40"/></td>
+                            </tr>
+                            <tr>
+                                <td>Color preferido</td>
+                                <td><input type="color" name="color"/></td>
+                            </tr>
+                            <tr>
+                                <td>Su foto</td>
+                                <td><input type="file" name="foto"
+                                           accept="image/*"/></td>
+                            </tr>
+                            <tr>
+                                <td>Teléfono </td>
+                                <td><input type="tel" name="telefono"
+                                           size="8"/></td>
+                            </tr>
+                            <tr>
+                                <td>Sitio Web</td>
+                                <td><input type="url" name="sitio"/></td>
+                            </tr>
+                            <tr>
+                                <td>Rango Salarial</td>
+                                <td><input type="number" name="salario" min="400"
+                                           max="10000 step="100"/></td>
+                            </tr>
+                            <tr>
+                                <td>Zona</td>
+                                <td>Dentro de GAM <input type="radio" name="zona" value="1"/> </td>
+                                Fuera de GAM <input type="radio" name="zona" value="2"/> </td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Nivel de satisfacción</td>
+                                <td>Minimo 0 <input type="range" min="0" max="10" step="1"/>10 máximo</td>
+                            </tr>
+                            <tr>
+                                <td>Dirección exacta</td>
+                                <td><textarea name="dirección" rows="4" cols="40"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Nivel educativo</td>
+                                <td><select name="nivel"></td>
+                                        <option value="0">Primaria incompleta</option> 
+                                        <option value="1">Primaria completa</option> 
+                                        <option value="2">Secundaria Incompleta</option> 
+                                        <option value="3">Secundaria completa</option> 
+                                        <option value="4">Universidad incompleta</option> 
+                                        <option value="5">Universidad completa</option>
+                                    </select><td
+                            </tr>
+                            <tr>
+                                <td>Acciones</td>
+                                <td><input type="reset" value="Limpiar"/> 
+                                    <input type="submit" value="Enviar"/>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    Declaro bajo juramento que la informacion es veraz <input type="checkbox" name="Jura" required />
+                </form>
+            </article>
+        </section>
+        <footer class="footer">
+            <p>Derechos Reservados TechShop &COPY; 2025</p>
+        </footer>
+
+    </body>
+</html>
